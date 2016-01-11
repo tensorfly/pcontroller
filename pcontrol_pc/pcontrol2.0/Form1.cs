@@ -28,7 +28,7 @@ namespace pcontrol2._0
         {
             InitializeComponent();
             //String ip = Util.getIP();
-            String ip = "192.168.1.104";
+            String ip = "192.168.1.104"; // need to be replaced by your own IP address
             String msg = Util.encrypt(ip + ":" + PORT, "batmanbegins");
             renderQR(msg);
 
