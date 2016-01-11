@@ -1,3 +1,8 @@
+This application is a demo which shows how to communicate an android phone with window pc by UDP signals. With this app, you can control any pc games with your android phone on the fly, just like a ps3 gamepad (you can even simulate the vibration of gamepad). isn't it cool? :-)
+
+
+( Note: the 31st line of /pcontrol_pc/pcontrol2.0/Form1.cs, which gives the IP adress of pc needs to be replaced by your own ip )
+
 This application consist of a windows exe and an android apk. 
 
 (1) Put windows PC and Android phone in the same network. 
