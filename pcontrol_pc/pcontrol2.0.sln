@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pcontrol2.0", "pcontrol2.0\pcontrol2.0.csproj", "{EE7F3144-024D-4397-9661-F25E0B5365A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pcontrol_pc1.0", "..\..\..\test\pcontrol_pc1.0\pcontrol_pc1.0\pcontrol_pc1.0.csproj", "{695DAB34-A88D-4F86-810B-EA0ED0782DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_listener", "..\..\..\test\console_UDP\UDP_listener\UDP_listener.csproj", "{3CFA14D3-C08A-4F14-BE52-B273EAD72EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_talker", "..\..\..\test\console_UDP\UDP_talker\UDP_talker.csproj", "{8011DBDB-2CD0-4E7D-BEDB-EDAFB8625FB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7F3144-024D-4397-9661-F25E0B5365A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7F3144-024D-4397-9661-F25E0B5365A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7F3144-024D-4397-9661-F25E0B5365A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7F3144-024D-4397-9661-F25E0B5365A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695DAB34-A88D-4F86-810B-EA0ED0782DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695DAB34-A88D-4F86-810B-EA0ED0782DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695DAB34-A88D-4F86-810B-EA0ED0782DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695DAB34-A88D-4F86-810B-EA0ED0782DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFA14D3-C08A-4F14-BE52-B273EAD72EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFA14D3-C08A-4F14-BE52-B273EAD72EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFA14D3-C08A-4F14-BE52-B273EAD72EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFA14D3-C08A-4F14-BE52-B273EAD72EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8011DBDB-2CD0-4E7D-BEDB-EDAFB8625FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8011DBDB-2CD0-4E7D-BEDB-EDAFB8625FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8011DBDB-2CD0-4E7D-BEDB-EDAFB8625FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8011DBDB-2CD0-4E7D-BEDB-EDAFB8625FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="pcontrol2.0.exe" version="1.0.0.0" publicKeyToken="6dd0b022c8f7b93f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="pcontrol2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="pcontrol2.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InputSimulator.dll" size="13824">
+      <assemblyIdentity name="InputSimulator" version="0.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GhCRFYJ+zUE7l4hyxlYoVyEC/pk94t/zpgvHO9fEJxg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pcontrol2.0.exe" size="11776">
+      <assemblyIdentity name="pcontrol2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6oJmR0lDtvIPxctCuDqbgO84AnuK7asnmgVjaupmsYA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zxing.dll" size="463360">
+      <assemblyIdentity name="zxing" version="0.12.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wbzxPKHLOBnh5VQzPpOhom8tD7ebM+nNvRqTLWQI3zQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="pcontrol2.0.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=think-THINK\think" issuerKeyHash="92a17be991a663195ac0e129b7bfa85f78736193" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3AGJjA+5cvNoYUpUwRJAY5NRLleu/LpS6bQ/No/jDzo=</DigestValue></Reference></SignedInfo><SignatureValue>gr2WcjhKfcaRuroxsyM39bQShg63oNpxwmPp+/crDPrU6b0agU2opmLbS3tsYtZcItDcfkzJvMZLhkFgVtlrqilfncySvSPwpE/jsjTtwe8yPcCE0b4WbT+E5mcxb8HULGZtSY9dpLlwwUpJedMKXIsZUVtwD7rxVFpBcVOLdto=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>y29MoTE0Vl9sjnTA78zdtMoL8Z4+AD22ejEBa8SM4tvml8T1YZTpFe90l36FO/yE2vMfHaVJONxb+4saKL1XcwM7Rdu8Dqd9HF51apqL9WUZQ6WjxYFQt4/OWn6iEaIiwZBqgT3wKAVG4dVBV2UQmH6fgBUF1P4SP+Ln49vp+bk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3a0fe38f363fb4e952bafcae572e5193634012c1544a6168f372b90f8c8901dc" Description="" Url=""><as:assemblyIdentity name="pcontrol2.0.exe" version="1.0.0.0" publicKeyToken="6dd0b022c8f7b93f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=think-THINK\think</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Bjh0BHo42CdBSOcJNcpJRe/W15XLpPjs9msDf+PQUyM=</DigestValue></Reference></SignedInfo><SignatureValue>uYqDaRh0t9FLs59ODIa+d+d9xPBeIDqzrxV8ifBcFESJG74vnA/wpywqAvML69hCszDENlZ6V1gK+bPwt3/J6AsUgaoi71AkM3VU4FPUtq8/EPoT6XSrePgi9MYIEBj8lRffGN1QmTFKkX48cO+whTKTEWFTq+1dT/U0U4ofguU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>y29MoTE0Vl9sjnTA78zdtMoL8Z4+AD22ejEBa8SM4tvml8T1YZTpFe90l36FO/yE2vMfHaVJONxb+4saKL1XcwM7Rdu8Dqd9HF51apqL9WUZQ6WjxYFQt4/OWn6iEaIiwZBqgT3wKAVG4dVBV2UQmH6fgBUF1P4SP+Ln49vp+bk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQZIA3S9jWO5dE1s0VWOLUZTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAdABoAGkAbgBrAC0AVABIAEkATgBLAFwAdABoAGkAbgBrMB4XDTEzMTExOTA4MjgwN1oXDTE0MTExOTE0MjgwN1owLTErMCkGA1UEAx4iAHQAaABpAG4AawAtAFQASABJAE4ASwBcAHQAaABpAG4AazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAy29MoTE0Vl9sjnTA78zdtMoL8Z4+AD22ejEBa8SM4tvml8T1YZTpFe90l36FO/yE2vMfHaVJONxb+4saKL1XcwM7Rdu8Dqd9HF51apqL9WUZQ6WjxYFQt4/OWn6iEaIiwZBqgT3wKAVG4dVBV2UQmH6fgBUF1P4SP+Ln49vp+bkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBpdD6E0h0ZWCdJOL0fJrHc1c5KtqK/f0hIK7QQ8VRK8lTkoBmuAcdMnhSiVKPl/o2p3qric1uHij4Ezm8w4Y0qXM2jvIidw2c3S2/FMbMx6IfHHGjfLx1aC2AqXeQSJCb9DnAhXfHU/RYoXNsINXQ6VmjStA92RjEpCEsMqE+f/Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

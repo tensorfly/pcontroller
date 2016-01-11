@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    android:id="@+id/layout1"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/ButtonA"
+        android:layout_width="130dip"
+        android:layout_height="130dip"
+        android:layout_centerVertical="true"
+        android:background="@drawable/roundbtn"
+        android:tag="4"
+        />
+
+    <Button
+        android:id="@+id/ButtonW"
+        android:layout_width="130dip"
+        android:layout_height="130dip"
+        android:layout_alignLeft="@+id/ButtonA"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/roundbtn"
+        android:tag="1"
+       	/>
+
+    <Button
+        android:id="@+id/ButtonS"
+        android:layout_width="130dip"
+        android:layout_height="130dip"
+        android:layout_alignLeft="@+id/ButtonW"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundbtn"
+        android:tag="3"
+        />
+    
+    <Button
+        android:id="@+id/ButtonD"
+        android:layout_width="130dip"
+        android:layout_height="130dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/roundbtn"
+        android:tag="2" 
+        />
+
+    <Button
+        android:id="@+id/ButtonJ"
+        android:layout_width="200dip"
+        android:layout_height="140dip"
+        android:layout_alignLeft="@+id/ButtonK"
+        android:layout_alignTop="@+id/ButtonS"
+        android:background="@drawable/flatbtn" 
+        android:tag="5"
+        />
+
+    <Button
+        android:id="@+id/ButtonK"
+        android:layout_width="200dip"
+        android:layout_height="140dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/flatbtn"
+        android:tag="6" 
+        />
+
+</RelativeLayout>
